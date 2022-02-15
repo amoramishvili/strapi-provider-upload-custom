@@ -1,0 +1,39 @@
+{
+  "name": "strapi-provider-upload-custom",
+  "version": "3.0.1",
+  "description": "custom provider for Strapi CMS file upload.",
+  "strapi": {
+    "isProvider": true
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "keywords": [
+    "sftp",
+    "strapi",
+    "provider",
+    "file upload"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.5.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "sharp": "^0.29.3"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config",
+    "test:watch": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config --watch"
+  },
+  "jest": {
+    "automock": true
+  }
+}
