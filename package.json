@@ -1,12 +1,12 @@
 {
   "name": "strapi-provider-upload-custom",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "custom provider for Strapi CMS file upload.",
   "strapi": {
     "isProvider": true
   },
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "main": "./lib",
   "keywords": [
@@ -35,5 +35,14 @@
   },
   "jest": {
     "automock": true
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoramishvili/strapi-provider-upload-custom.git"
+  },
+  "author": "amo ramishvili <amo.ramishvili@hotmail.com>",
+  "bugs": {
+    "url": "https://github.com/amoramishvili/strapi-provider-upload-custom/issues"
+  },
+  "homepage": "https://github.com/amoramishvili/strapi-provider-upload-custom#readme"
 }
