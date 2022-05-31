@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-custom",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "custom provider for Strapi CMS file upload.",
   "strapi": {
     "isProvider": true
